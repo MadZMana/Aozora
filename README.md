@@ -23,7 +23,7 @@ Aozora is a Discord bot with a collection of random features, updated over time.
 
 ## Usage
 
-- Rename `.env-example` to `.env` and edit it with your credentials.
+- Rename `.env.example` to `.env` and edit it with your credentials.
 
 - Add the bot to your Discord server.
 
