@@ -12,6 +12,11 @@ const commands = [
 	.setName("igdl")
 	.setDescription("Kirim video dari Instagram")
 	.addStringOption(option => option.setName("url").setDescription("Link Reels").setRequired(true))
+	.toJSON(),
+	new SlashCommandBuilder()
+	.setName("disconnect")
+	.setDescription("Disconnect user dari Voice Channel")
+	.addStringOption(option => option.setName("target").setDescription("Username user").setRequired(true))
 	.toJSON()
 ]
 
